@@ -1,11 +1,12 @@
 # Dancing Cat GIF with Python
 
-![Dancing Cat](dancing_cat.gif)
+![Dancing Cat](dancing_cat.gif)  
+
 This is a mini project that creates a GIF of a dancing cat using Python.
 
 ## How it works
 
-- I used `PIL.Image` to resize all images to (656, 656). Without this, the code raises a `ValueError('all input arrays must have the same shape')`.
+- I used `PIL.Image` to resize all images to (300, 300). Without this, the code raises a `ValueError('all input arrays must have the same shape')`.
 - The list of filenames is written so the GIF loops the cat dancing from right to left and back.
 - `imageio.v3` is used to save the GIF with a frame duration of 0.25s and infinite looping.
 
@@ -21,3 +22,9 @@ This is a mini project that creates a GIF of a dancing cat using Python.
 
 - The GIF will be saved as `dancing_cat.gif`.
 - You can replace the images with your own as long as they have the same dimensions.
+
+Thanks to @codedex-io and @sonnynomnom for the original tutorial!  
+
+Their profiles:  
+[Codedex-io](https://github.com/codedex-io)  
+[Sonny Li](https://github.com/sonnynomnom)

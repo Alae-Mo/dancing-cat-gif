@@ -12,7 +12,7 @@ for filename in filenames:
     img = Image.open(filename)
 
     # Resizing image to (656, 656) so all images have the same shape
-    img = img.resize((656, 656))
+    img = img.resize((300, 300))
     images.append(img)
 
 # Saving images as gif
